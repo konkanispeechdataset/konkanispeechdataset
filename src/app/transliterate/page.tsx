@@ -1,3 +1,5 @@
+import React from "react"
+
 export default function Page() {
     return (<p>
         <h1>Transliterate from Devanagari to Roman!</h1>
