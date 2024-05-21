@@ -112,21 +112,22 @@ import Image from "next/image";
 //   );
 // }
 
-import Header from "./components/header";
-import Footer from './components/footer';
+// import Header from "../components/header";
+// import Footer from '../components/footer';
 
 export default function Page() {
   return (
     <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-1">
-        {/* Your page content goes here */}
-        <h1 className="text-4xl font-bold mb-4">Welcome to the Home Page</h1>
-        <p className="text-gray-600 mb-8">
-          This is the content of the Home Page.
-        </p>
-      </main>
-      <Footer />
+    
     </div>
   );
 }
+//   <Header />
+//   <main className="flex-1">
+//     {/* Your page content goes here */}
+//     <h1 className="text-4xl font-bold mb-4">Welcome to the Home Page</h1>
+//     <p className="text-gray-600 mb-8">
+//       This is the content of the Home Page.
+//     </p>
+//   </main>
+//   <Footer />
